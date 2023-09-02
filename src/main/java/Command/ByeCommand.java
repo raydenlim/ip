@@ -22,7 +22,7 @@ public class ByeCommand extends Command {
      * @param ui       The user interface for displaying the goodbye message.
      * @param storage  The storage component for saving the task list (optional).
      * @throws DukeException An exception may be thrown if there is an error executing
-     *      the command (e.g., storage error).
+     *                       the command (e.g., storage error).
      */
     @Override
     public void execute(TaskList taskList, Ui ui, Storage storage) throws DukeException {

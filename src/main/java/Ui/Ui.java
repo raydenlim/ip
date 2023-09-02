@@ -26,6 +26,8 @@ public class Ui {
 
     /**
      * Displays a farewell message to the user when they exit the application.
+     *
+     * @return
      */
     public void showBye() {
         System.out.println("Bye. Hope to see you again soon!");
